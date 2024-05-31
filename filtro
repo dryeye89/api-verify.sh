@@ -1,0 +1,1 @@
+grep -P '/(api|/.api|v2|v1|rest|json|search|product|user|booking)' | tee -a apis.txt
